@@ -1,0 +1,152 @@
+.bui-page>.main, .bui-page>main {
+    background-color: #d0d0d0;
+}
+header.bui-bar,.topContent {
+    background: -webkit-linear-gradient(left, #262626 , #0e0e0e); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(right, #262626, #0e0e0e); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(right, #262626, #0e0e0e); /* Firefox 3.6 - 15 */
+    background: linear-gradient(to right, #262626 , #0e0e0e); /* 标准的语法 */
+}
+.topContent {
+    overflow: hidden;
+}
+.goCheck {
+    margin-top: .5rem;
+}
+.pic {
+    margin-left: 0.5rem;    
+}
+.check {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 0.1rem;
+    box-sizing: border-box;
+}
+.check span {
+    margin-left: 0.1rem;
+}
+.check div {
+    height: .45rem;
+    line-height: .45rem;
+    padding:0 .15rem;
+    text-align: right;
+    border-top-left-radius:15px;
+    border-bottom-left-radius:15px;
+    color: #fff;
+    background: -webkit-linear-gradient(left, #e5b758 , #ac883e); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(right, #e5b758, #ac883e); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(right, #e5b758, #ac883e); /* Firefox 3.6 - 15 */
+    background: linear-gradient(to right, #e5b758 , #ac883e); /* 标准的语法 */
+}
+.detail {
+    display: flex;
+    margin-top: 0.4rem;
+    /* justify-content: space-between; */
+}
+.detail div {
+    flex: 1;
+    text-align: center;
+}
+.allIncome p:nth-child(2),.hasChecked p:nth-child(2),.noCompute p:nth-child(2){
+    font-size: 18px;
+    color: #aaa;
+}
+.infoList {
+    /* background-color: #d0d0d0; */
+    padding: 0.15rem;
+}
+.infoList div:nth-child(1) {
+    background-color: #fff;
+}
+.subTitle {
+    padding: .1rem .3rem;
+    display: flex;
+    justify-content: space-between;
+}
+.subTitle div {
+    font-size: 19px;
+    color: #333;
+}
+.listTitle,.listItem {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 .3rem;
+}
+.listTitle {
+    margin-top: .2rem;
+}
+.listTitle div,
+.listItem div {
+    text-align: center;
+}
+.listTitle div p,
+.listItem div p {
+    width: 1rem;
+    color: #333;
+    font-size: 17px;
+    border-bottom: 1px solid #eee;
+    overflow: hidden;
+    text-align: center;
+    white-space: nowrap;
+    word-break: break-all;
+    text-overflow: ellipsis;
+    padding: 6px 0;
+}
+.gradeItem {
+    display: flex;
+    padding: .2rem 0;
+    margin: 0 .2rem;
+    border-bottom: 1px solid #ddd;
+}
+.gradeItem div {
+    flex: 1;
+    color: #333;
+}
+.gradeItem div:nth-child(2) {
+    padding-left: 1rem;
+    box-sizing: border-box;
+}
+#uiDialog {
+    top: 30% !important;
+    height: 320px !important;
+    width: 220px !important;
+    
+}
+.bui-dialog .bui-dialog-head {
+    font-size: 17px;
+    color: #333;
+}
+.checkbox {
+    border: 50%;
+    visibility: hidden;
+}
+.active {
+
+}
+label {
+    width: 16px;
+    height: 16px;
+    background-color: #fff;
+    border: 1px solid #349c00;
+    border-radius:50%; 
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    position: relative;
+}
+label div.inner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    
+}
+.circleActive {
+    background-color: #349c00;
+}
+.label p {
+   
+}

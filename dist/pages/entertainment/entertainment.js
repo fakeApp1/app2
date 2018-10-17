@@ -19,4 +19,10 @@ bui.ready(function () {
         height: 200,
         zoom: true
     });
+    $('.nav-item').on('click', function () {
+        console.log($(this));
+        $(this).children;
+        $(this).children().addClass('activity');
+        $(this).siblings().children().removeClass('activity');
+    });
 });

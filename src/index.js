@@ -14,4 +14,7 @@ bui.ready(function() {
     $("#jumpGroupDetail").on("click", function(e) {
         bui.load({ url: "pages/jumpGroupDetail/jumpGroupDetail.html" });
     })
+    $("#jumpIncomeRecord").on("click", function(e) {
+        bui.load({ url: "pages/incomeRecord/incomeRecord.html" });
+    })
 })

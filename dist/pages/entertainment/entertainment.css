@@ -20,6 +20,7 @@ body,html {
     padding: 0;
     width: 30px;
     height: 0.6rem;
+    line-height: 0.6rem;
     color: #fff;
     background-color: #333;
     text-align: center;
@@ -47,14 +48,16 @@ body,html {
    margin: 0;
    padding: 0;
    width: 40px;
-   height: 41px;
+   height: 100%;
    line-height: 41px;
    /* background-color:red; */
    margin:0 auto;
+   box-sizing: border-box;
    
 }
 .activity {
     border-bottom: 2px solid #21abab;
+    color: #21abab;
 }
 /* .newactive {
     
@@ -89,12 +92,6 @@ body,html {
     background-size: cover;
     margin-top: 8px;
     color: #fff;
-}
-.met,.activitytime {
-    background: -webkit-linear-gradient(left, #0EE7FC , #439BF9); /* Safari 5.1 - 6.0 */
-    background: -o-linear-gradient(right, #0EE7FC, #439BF9); /* Opera 11.1 - 12.0 */
-    background: -moz-linear-gradient(right, #0EE7FC, #439BF9); /* Firefox 3.6 - 15 */
-    background: linear-gradient(to right, #0EE7FC , #439BF9); /* 标准的语法 */
 }
 .activitytime {
     display: flex;
