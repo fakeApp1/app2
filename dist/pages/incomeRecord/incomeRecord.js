@@ -1,6 +1,24 @@
 "use strict";
 
 bui.ready(function () {
+        // var input = $("#datepicker_input");
+        var timeVal = $('.timeVal');
+        var uiPickerdate = bui.pickerdate({
+                handle: "#datepicker_input",
+                // input 显示的日期格式
+                formatValue: "yyyy-MM-dd",
+                cols: {
+                        hour: "none",
+                        minute: "none",
+                        second: "none"
+                },
+                onChange: function onChange(value) {
+                        // input.val(value); 
+                        timeVal.html(value);
+                }
+                // 如果不需要按钮,设置为空
+                // buttons: null
+        });
         var uiDialog = bui.dialog({
                 id: "#uiDialog",
                 height: 200,
