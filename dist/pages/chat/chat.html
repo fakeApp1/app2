@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="maximum-scale=1,minimum-scale=1,user-scalable=0,initial-scale=1,width=device-width">
+    <meta name="format-detection" content="telephone=no,email=no,date=no,address=no">
+    <title>聊天详情</title>
+    <link rel="stylesheet" href="../../css/bui.css">
+    <link rel="stylesheet" href="./chat.css">
+    
+    <script src="../../js/zepto.js"></script>
+    <script src="../../js/plugins/fastclick.js"></script>
+    
+    <script src="../../js/bui.js"></script>
+    <script src="../../js/app/_config.js"></script>
+    <script src="./chat.js"></script>
+</head>
+
+<body>
+    <div id="page" class="bui-page page-chat">
+        <header class="bui-bar">
+            <div class="bui-bar-left">
+                <a class="bui-btn" onclick="bui.back()"><i class="icon-back"></i></a>
+            </div>
+            <div class="bui-bar-main">
+                聊天详情
+            </div>
+            <div class="bui-bar-right">
+                
+            </div>
+        </header>
+        <main>
+            <div id="pagemain">
+                <div class="redIcon">
+                    <div class="red" id="redRecord">
+                        <div>
+                            <img src="../../images/redRecord.png" alt="" style="width:40px">
+                        </div>
+                        <span>红包记录</span>
+                    </div>
+                    <div class="red" id="redEnvelopes">
+                        <div>
+                            <img src="../../images/red.png" alt="" style="width:23px;margin-left:6px">
+                        </div>
+                        <span>发红包</span>
+                    </div>
+                </div>
+                <div class="bui-panel chat-panel">
+                    <div class="bui-box-center">
+                        <div class="time">5月11日 08:30</div>
+                    </div>
+                    <div class="bui-box-align-top chat-target">
+                        <div class="chat-icon"><img src="../../images/3.png" alt=""></div>
+                        <div class="span1">
+                            <p class="nameLeft">昵称</p>
+                            <div class="chat-content bui-arrow-left">发货到外省要收长途费用； 280公里以外，按0.35元/吨/公里计算。1500公里以外，载货20吨，12.5米长途货车，按350元/吨计算。其他的价格请和货运中介服务部商议
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bui-box-align-top chat-mine">
+                        <div class="span1">
+                            <p class="nameRight">昵称</p>
+                            <div class="bui-box-align-right">
+                                <div class="chat-content bui-arrow-right">知道了，谢谢！
+                                </div>
+                            </div>
+                        </div>
+                        <div class="chat-icon"><img src="../../images/2.png" alt=""></div>
+                    </div>
+                    <div class="bui-box-align-top chat-target">
+                        <div class="chat-icon"><img src="../../images/3.png" alt=""></div>
+                        <div class="span1">
+                            <p class="nameLeft">昵称</p>
+                            <div class="chat-content bui-arrow-left">好的,您稍等~~
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bui-box-align-top chat-target">
+                        <div class="chat-icon"><img src="../../images/3.png" alt=""></div>
+                        <div class="span1">
+                            <p class="nameLeft">昵称</p>
+                            <div class="redMoneyLeft leftN">
+                                <p class="redWords">恭喜发财，大吉大利</p>
+                                <img src="../../images/leftN.png" style="width:72%" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bui-box-align-top chat-target">
+                        <div class="chat-icon"><img src="../../images/3.png" alt=""></div>
+                        <div class="span1">
+                            <p class="nameLeft">昵称</p>
+                            <div class="redMoneyLeft">
+                                <p class="redWords">恭喜发财，大吉大利</p>
+                                <img src="../../images/leftY.png" style="width:72%" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bui-box-align-top chat-mine">
+                        <div class="span1">
+                            <p class="nameRight">昵称</p>
+                            <div class="redMoneyRight">
+                                <p class="redWords">恭喜恭喜</p>
+                                <img src="../../images/rightN.png" style="width:72%" alt="">
+                            </div>
+                        </div>
+                        <div class="chat-icon"><img src="../../images/2.png" alt=""></div>
+                    </div>
+                    <div class="bui-box-align-top chat-mine">
+                        <div class="span1">
+                            <p class="nameRight">昵称</p>
+                            <div class="redMoneyRight">
+                                <p class="redWords">客气客气</p>
+                                <img src="../../images/rightY.png" style="width:72%" alt="">
+                            </div>
+                        </div>
+                        <div class="chat-icon"><img src="../../images/2.png" alt=""></div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="chatbar">
+                <div class="bui-input">
+                    <textarea id="chatInput"></textarea><span id="btnSend" class="bui-btn round disabled">发送</span>
+                </div>
+            </div>
+        </footer>
+        <div id="dialog3" class="bui-dialog" style="display:none">
+            <div class="closeRed">
+
+            </div>
+            <div class="redContent">
+
+                <div>
+                    <img src="../../images/3.png" alt="">
+                </div>
+                <div>
+                    <p>阿狸</p>
+                    <p>给你发了一个红包</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

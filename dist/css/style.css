@@ -1,0 +1,254 @@
+@charset "utf-8";
+.clearfix {
+    display: table;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+    height: 0;
+}
+
+header.bui-bar,
+.bui-bar-main {
+    background-color: #d95940;
+    color: #ffe3b3 !important;
+}
+
+.bui-bar .bui-bar-left>[class*=bui-btn]>i,
+.bui-bar .bui-bar-right>[class*=bui-btn]>i {
+    color: #ffe3b3 !important;
+}
+
+.bui-bar .bui-bar-main {
+    text-align: left;
+    color: #ffe0b0
+}
+
+.bui-bar .bui-bar-left {
+    width: 0.5rem
+}
+
+[class*=bui-btn].danger {
+    background-color: #d95940;
+}
+
+#dialog3 {
+    top: 30px !important;
+    margin-top: 0 !important;
+    /* height: 208px; */
+    height: 42vh;
+    /* margin-top: 10px !important;
+    position: fixed !important;
+    top: .6rem !important; */
+}
+
+#dialog3.dialog4 {
+    position: fixed;
+    top: 65vh !important;
+    bottom: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    margin-top: 0 !important;
+    width: 100% !important;
+    border-radius: 0;
+    margin-left: 0 !important;
+    border: none;
+    height: 35vh;
+}
+
+.login-form {
+    padding: .5rem .5rem 0;
+}
+
+ul {
+    list-style: none;
+}
+
+.passwordDiv {
+    text-align: center;
+    width: 90%;
+    margin: 0px auto;
+}
+
+.passwordLabel {
+    height: 30px;
+    clear: both;
+    width: 100%;
+    text-align: center;
+}
+
+.passwordLabel ul {
+    width: 100%;
+    display: flex;
+    border: 1px solid #bebebe;
+}
+
+.passwordLabel li {
+    float: left;
+    flex: 1;
+    height: 50px;
+    line-height: 46px;
+    text-align: center;
+    border-right: 1px solid #eeeeee;
+    margin-left: -1px;
+    font-size: 25px;
+}
+
+.passwordLabel .last {
+    border-right: none;
+}
+
+.passwordDiv input {
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    border: 0;
+}
+
+.bui-dialog .bui-dialog-close {
+    left: 0.1rem;
+    right: auto;
+    margin: 2px 0px 2px 10px;
+    position: static;
+}
+
+.bui-dialog .bui-dialog-close i {
+    font-size: 0.2rem;
+}
+
+.avatar {
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+}
+
+.pwdCon {
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid #edffee;
+    display: flex;
+    align-items: center;
+}
+
+.pwdCon div {
+    float: left;
+    height: 0.5rem;
+    line-height: 0.5rem;
+}
+
+.pwdCon .pic {
+    margin-left: 0.1rem;
+    color: #000;
+}
+
+.pwdCon .pic img {
+    margin-right: 0.1rem;
+}
+
+.paymoney,
+.paymethod {
+    width: 90%;
+    margin: 0 auto;
+    /* margin: .2rem auto .2rem auto; */
+    padding: .1rem 0 .6rem 0;
+    border-bottom: 1px solid #eee;
+}
+
+.paymoney {
+    text-align: center
+}
+
+.paymethod {
+    padding: .1rem 0 .1rem 0;
+}
+
+.paymethod div {
+    height: 0.55rem;
+    line-height: 0.55rem;
+}
+
+
+/* .paymethod .pic img {
+    vertical-align: middle;
+} */
+
+.paymoney div:nth-child(1) {
+    font-size: 14px;
+    color: #000;
+}
+
+.paymoney div:nth-child(2) {
+    position: relative;
+}
+
+.money {
+    width: 28%;
+    text-align: center;
+    font-size: 30px;
+    text-align: center;
+    position: absolute;
+    margin: 0 auto;
+    height: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.money div {
+    font: 24px bold;
+    display: inline-block;
+    position: absolute;
+    color: #000;
+}
+
+.money div:nth-child(2) {
+    top: 0;
+    left: 10px;
+}
+
+.money .yen {
+    height: 16px;
+    line-height: 16px;
+    font: 16px bold;
+    font-weight: 700;
+    top: 0;
+    left: 0;
+}
+
+.typepic {
+    position: relative;
+    font-size: 15px;
+}
+
+.typepic span {
+    position: absolute;
+    right: 0;
+}
+
+.key {
+    height: 35vh;
+}
+
+.number {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.number span {
+    width: 33.33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc((35vh - .6rem) / 4);
+    border-top: 1px solid #eee;
+    border-right: 1px solid #eee;
+    color: #000;
+    font-size: 26px;
+}
+
+.number span img {
+    width: 50%;
+    height: 80%;
+}

@@ -1,0 +1,75 @@
+header.bui-bar {
+    background-color: #121139 !important;
+}
+
+main {
+    background-color: #100b1f;
+    padding: .2rem;
+    min-height: 100vh;
+}
+
+.bui-nav {
+    width: 80%;
+    height: 0.6rem;
+    border-radius: .3rem;
+    margin-bottom: .2rem;
+}
+
+.bui-nav>[class*=bui-btn].tabBtn {
+    border: none;
+    background: #1a0b50;
+    color: #fff;
+}
+
+.bui-nav>[class*=bui-btn].tabBtn:first-child {
+    border-radius: .3rem 0 0 .3rem;
+}
+
+.bui-nav>[class*=bui-btn].tabBtn:nth-child(2) {
+    border-radius: 0 .3rem .3rem 0;
+}
+
+.bui-nav>[class*=bui-btn].tabBtn.active {
+    background-image: linear-gradient(to bottom, #135178, #5a618f);
+    color: #bb9334;
+}
+
+.roomList {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.roomCard {
+    border-radius: 8px;
+    background: #3c3e4b;
+    width: 45%;
+    margin-top: 15px;
+}
+
+.roomCard .roomImg {
+    width: 100%;
+}
+
+.roomCard .roomImg img {
+    width: 100%;
+    height: 100%;
+    vertical-align: top;
+}
+
+.completeNum {
+    text-align: center;
+    background: #585f69;
+    color: #adacb2;
+    padding: 3px 0;
+    margin-bottom: 0;
+    font-size: 10px;
+}
+
+.completePrice {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .1rem;
+    color: #a6a6b2;
+}

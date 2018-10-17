@@ -1,0 +1,84 @@
+.detailTop {
+    background: #f2f2f2;
+}
+
+.detailTop p {
+    margin-bottom: 0;
+    padding: .3px;
+    text-align: center;
+}
+
+.redRound {
+    background-color: #d95940;
+    width: 100%;
+    height: 1.5rem;
+    border-radius: 0 0 100% 100%;
+}
+
+.redBgc {
+    position: relative;
+    margin-bottom: 36px;
+}
+
+.usrImg {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -30px;
+    width: 60px;
+    height: 60px;
+    border: 1px solid #f0d093;
+    border-radius: 8px;
+}
+
+.usrImg img {
+    border-radius: 8px;
+}
+
+.splitImg {
+    padding-top: 15px;
+    background-color: #f2f2f2;
+}
+
+.splitImg img {
+    vertical-align: top;
+}
+
+.redDetailList {
+    background-color: #fefefe;
+    padding: 0 .35rem;
+}
+
+.redDetailList li {
+    display: flex;
+    border-top: 1px solid #d8d8d8;
+    padding: .1rem 0;
+}
+
+.redDetailList li:first-child {
+    border-top: none;
+}
+
+.Avatar,
+.Avatar img {
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+}
+
+.Avatar {
+    margin-right: 6px;
+}
+
+.userGetInfo {
+    flex-grow: 1;
+    width: 0;
+}
+
+.oneLine {
+    display: flex;
+    justify-content: space-between;
+    font-size: .25rem;
+    font-weight: 600;
+    color: #000;
+}

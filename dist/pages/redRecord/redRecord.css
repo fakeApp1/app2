@@ -1,0 +1,116 @@
+.redYear {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.redYear .redYearP,
+.redYear .redYearP>i {
+    color: #a6a088;
+}
+
+.redYear .redYearP {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.redYear .redYearP span {
+    margin-bottom: 10px;
+}
+
+.pageTop {
+    padding: .35rem .45rem 0;
+    background-color: #fcf9f2;
+}
+
+.userImg {
+    margin: 0 auto;
+    border-radius: 8px;
+    width: 60px;
+    height: 60px;
+}
+
+.userImg img {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+
+.redInfo {
+    color: #000;
+    text-align: center;
+    margin-top: .1rem;
+    margin-bottom: 0;
+    font-weight: 600;
+}
+
+.redInfo.redNum {
+    margin-top: 0;
+    font-size: .8rem;
+}
+
+.redInfo.redNum::after {
+    content: '元';
+    font-size: .2rem;
+    vertical-align: baseline;
+    margin-left: 6px;
+}
+
+.recordInfo {
+    display: flex;
+    justify-content: space-between;
+    padding: .5rem;
+}
+
+.recordInfo .getRed {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #a5a29b;
+}
+
+.getRed span {
+    font-size: .4rem;
+}
+
+.recordList {
+    background-color: #fffaf4;
+    padding: 0 .45rem;
+}
+
+.recordList li {
+    border-top: 1px solid #dbd3d1;
+    padding-top: .1rem;
+    background-color: #fffaf4;
+}
+
+.recordList li:first-child {
+    border-top: none;
+}
+
+.listInfo {
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+}
+
+.bui-actionsheet {
+    padding: 0 !important;
+    height: auto !important;
+}
+
+.bui-actionsheet>[class*=bui-btn][value=cancel] {
+    display: none;
+}
+
+.bui-actionsheet [class*=bui-btn] {
+    text-align: left;
+    color: #000;
+    display: flex;
+    align-items: center;
+    border: none !important;
+}

@@ -1,0 +1,121 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>BUI</title>
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no">
+    <link rel="stylesheet" href="../../css/bui.css">
+    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="./redEnvelopes.css">
+    <link rel="stylesheet" href="//at.alicdn.com/t/font_871480_bmij12wp1i7.css">
+</head>
+
+<body>
+    <div class="bui-page">
+        <header class="bui-bar">
+            <div class="bui-bar-left">
+                
+                <div class="bui-btn"><i class="icon-back"></i></div>
+            </div>
+            <div class="bui-bar-main">发红包</div>
+            <div class="bui-bar-main redRecord" style="text-align:right;margin-right:.35rem">红包记录</div>
+        </header>
+        <main>
+            <div class="input">
+                <span>单个金额</span>
+                <input type="number" placeholder="0.00">
+                <span style="margin-left:10px">元</span>
+            </div>
+            <div class="input">
+                <span>留言</span>
+                <input type="number" placeholder="恭喜发财，大吉大利">
+            </div>
+            <div class="showPrice">
+                <span>0.00</span>
+            </div>
+            
+            <div class="login-form">
+                <div class="bui-btn round danger redbag">塞钱进红包</div>
+            </div>
+        </main>
+        <footer>
+            
+        </footer>
+        
+        <div id="dialog3" class="bui-dialog dialog3" style="display:none">
+            
+            <div class="pwdCon clearfix">
+                <div class="bui-dialog-close">
+                    <i class="icon-close"></i>
+                </div>
+                <div class="pic">
+                    <img src="../../images/1.jpg" alt="" class="avatar"> 请输入支付密码
+                </div>
+            </div>
+            
+            <div class="paymoney">
+                <div>微信红包</div>
+                <div>
+                    <div class="money clearfix">
+                        <div class="yen">￥</div>
+                        <div>808.88</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="paymethod">
+                <div class="pic typepic">
+
+                    <img src="../../images/2.png" alt="" class="avatar"> 零钱
+                    <span class="icon-listright"> </span>
+                </div>
+            </div>
+            
+            <div class="passwordDiv">
+                <label for="ipt" class="passwordLabel">
+          <ul class="clearfix">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li class="last"></li>
+          </ul>
+        </label>
+                
+            </div>
+        </div>
+        <div id="dialog3" class="bui-dialog dialog4 dialog3" style="display:none">
+            
+            <div class="key">
+                <div class="closeKey">
+                    <div class="bui-btn" style="border:none"><i class="icon-listdown"></i></div>
+                </div>
+                <div class="number">
+                    <span class="no">1</span>
+                    <span class="no">2</span>
+                    <span class="no">3</span>
+                    <span class="no">4</span>
+                    <span class="no">5</span>
+                    <span class="no">6</span>
+                    <span class="no">7</span>
+                    <span class="no">8</span>
+                    <span class="no">9</span>
+                    <span style="background:#e0e0e0"></span>
+                    <span class="no">0</span>
+                    <span style="background:#e0e0e0" class="deleteBtn"><img src="../../images/3.png" alt=""></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="../../js/zepto.js"></script>
+    <script src="../../js/bui.js"></script>
+    
+    <script src="./redEnvelopes.js"></script>
+</body>
+
+</html>
